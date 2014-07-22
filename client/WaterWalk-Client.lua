@@ -14,8 +14,8 @@ function WaterWalk:__init()
 	self.MaxDistance				=	50					--	Maximum distance the Surface can be from the player before forcing a rebuild. This is to guarantee the surface is near them.	Default: 50
 	
 	--	The model and collision of the Surface. Leave the model as "" to be invisible.
-	self.Model		=	""						--	Default: ""
-	self.Collision	=	"gb245_lod1-d_col.pfx"	--	Default: "gb245_lod1-d_col.pfx"
+	self.Model		=	""										--	Default: ""
+	self.Collision	=	"areaset01.blz/gb245_lod1-d_col.pfx"	--	Default: "areaset01.blz/gb245_lod1-d_col.pfx"
 	
 	--	Table of Vehicles which when occupied will pause the Walk's effectiveness.
 	self.NoSurfaceVehicles	=	{80, 88, 16, 5, 27, 38, 6, 19, 45, 28, 53, 25, 69, 5}
