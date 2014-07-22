@@ -1,3 +1,5 @@
+--	WaterWalk by JasonMRC of Problem Solvers.
+
 class 'WaterWalk'
 
 function WaterWalk:__init()
